@@ -1,3 +1,20 @@
+##########################################################################################################
+## Date: 			Sep 17, 2017
+## File: 			plot4.R
+## Description: 	Reads from 'data' folder the file 'household_power_consumption.txt'. In order to 
+## 				save memory, it reads 2881 rows starting from
+##				row 66636, which corresponds to dates 1/2/2007-2/2/2007. Builds a PNG plot file, 
+##				named 'plot4.png', corresponding to 4 graphs for different types of 
+##				analysis:
+##				- Global Active Power over datetime
+##				- Voltage
+##				- Energy submetering
+##				- Global Reactive  Power over datetime
+## Author: 		Antonio Marquez Palacios
+## Project:		Exploratory Data Analysis Course Project 1 - coursera
+## Project URL: 	https://www.coursera.org/learn/exploratory-data-analysis/peer/ylVFo/course-project-1
+#########################################################################################################
+
 library(grDevices)
 
 plot4<-function(){
